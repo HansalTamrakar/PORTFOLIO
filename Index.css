@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+}
+#main{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    border: 1px solid black;
+    background-color: black;
+
+}
+.info {
+    height: 100vh;
+    width: 20vw;
+    border: 1px solid black;
+    margin: 20px;
+    /* background-image:linear-gradient(to right,#ffafbd,#ffc3a0); */
+    /* border-radius: 10px; */
+}
+.info1{
+    height: 100vh;
+    border-radius: 10px;
+        width: 80vw;
+        border: 1px solid black;
+        margin-left: 5px;
+        margin-right: 20px;
+        margin-top: 20px;
+/* background-image: linear-gradient(to right, #ddd6f3, #faaca8); */
+}
+.name{
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 30px;
+    color: #e21e3f;
+    font-weight: bold;
+text-shadow: rgb(112, 57, 138) 1px 0 10px;
+
+}
+.letter{
+    font-size: 35px;
+}
+.proffesion{
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: 20px;
+    background-color: green;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+font-weight: bold;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.email{
+    margin-top: 30px;
+    font-size: 25px;
+    font-family: Times New Roman;
+    text-align: center;
+    display:grid;
+    /* border: 1px solid white; */
+    background-color: rgb(5, 5, 7);
+    padding: 20px 5px;
+    color:white;
+    margin-left: 0;
+    margin-right: 0;
+    
+}
+.email div{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.parent{
+    font-size: 30px;
+}
+.social-img{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+
+}
+
+.social-img img {
+    height: 40px;
+
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+   align-items: center;
+   height: 50px;
+   margin-left: 40%;
+   font-size: 30px;
+   font-family: Times New Roman;
+   color:white;
+   background-color:rgb(104, 8, 8)
+   
+}
+.about{
+    color:white;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.about-para{
+    color:white;
+    font-size: 25px;
+    letter-spacing: 1px;
+    word-spacing: 6px;
+    
+}
+.card{
+    color:white;
+    display: flex;
+    height:532px;
+    /* border: 1px solid white; */
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    text-align: center;
+    gap:0px
+}
+
+.card1{
+    height:300px;
+    align-items: center;
+    font-size: 18.5px;
+    justify-content: space-around;
+    margin-left:2px;
+    width: 500px;
+
+}
+.card1>img{
+    height: 100px;
+    float: center;
+}
